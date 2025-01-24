@@ -5,7 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wesley Edexcel Unit 2</title>
+
+    <!-- method 1 -->
+    <style>
+        .menu-a-tag{
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(240, 62, 22);
+        }
+
+        /* QUERY USING A HASH (ID) */
+        #logo {
+            width: 400px;
+        }
+
+        /* QUERY USING A CLASS */
+
+        .logo { 
+            border: 10px solid #000;
+        }
+    </style>
+
+    <!-- method 2 -->
     <link rel="stylesheet" href="/css/styles.css">
+
     <script type="text/javascript" src="/js/scripts.js"></script>
 
     <meta name="title" content="Wesley Edexcel Unit 2">
@@ -21,26 +44,30 @@
 
         <!-- Header -->
         <header>
-            <img src="/images/logo.png" alt="Wesley Logo" width="200" />
+            <img src="/images/logo.png" 
+                    id="logo"
+                    class="logo"
+                    alt="Wesley Logo" 
+                    width="200" />
             <nav>
                 <ul>
                     <ul>
-                        <a href="/index.html">Home</a>
+                        <a href="/index.html" class="menu-a-tag">Home</a>
                     </ul>
                     <ul>
-                        <a href="/index.html">History</a>
+                        <a href="/index.html" class="menu-a-tag">History</a>
                     </ul>
                     <ul>
-                        <a href="/index.html">News</a>
+                        <a href="/index.html" class="menu-a-tag">News</a>
                     </ul>
                     <ul>
-                        <a href="/index.html">Events</a>
+                        <a href="/index.html" class="menu-a-tag">Events</a>
                     </ul>
                     <ul>
-                        <a href="/index.html">Gallery</a>
+                        <a href="/index.html" class="menu-a-tag">Gallery</a>
                     </ul>
                     <ul>
-                        <a href="/index.html">Contact</a>
+                        <a href="/index.html" class="menu-a-tag">Contact</a>
                     </ul>
                 </ul>
             </nav>
