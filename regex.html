@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>
+        Regular Expressions
+    </h1>
+
+    <form action="">
+        <input type="text" name="validation" id="validation">
+        <input type="button" id="submit-btn" value="Submit">
+    </form>
+
+
+    <script>
+
+        let submit_btn = document.getElementById('submit-btn');
+
+        submit_btn.addEventListener('click', function () {
+
+            let input = document.getElementById('validation').value;
+
+            let validation = /^[A-z]{3}[0-9]{10}$/;
+
+            alert(validation.test(input));
+
+        });
+
+
+
+    </script>
+</body>
+
+</html>

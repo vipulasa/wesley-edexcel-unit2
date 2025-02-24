@@ -8,7 +8,7 @@
 
     <!-- method 1 -->
     <style>
-       
+
     </style>
 
     <!-- method 2 -->
@@ -29,11 +29,7 @@
 
         <!-- Header -->
         <header>
-            <img src="/images/logo.png" 
-                    id="logo"
-                    class="logo"
-                    alt="Wesley Logo" 
-                    width="200" />
+            <img src="/images/logo.png" width="100" onclick="alert('Hello World')" />
             <nav>
                 <ul class="menu">
                     <li>
@@ -61,6 +57,70 @@
         <!-- Main content -->
         <main>
 
+            <button id="newPage">
+                Click me
+            </button>
+
+            <br>
+
+            <a href="/success.html" target="_blank">
+                Link Tag
+            </a>
+
+            <br>
+
+            <!-- <a href="#" 
+            onclick="window.location.href = 'success.html'"
+            > -->
+            <a href="#" 
+            onclick="window.open('https://www.google.com', 'ela_kiri', 'width=200,height=100');"
+            >
+                New Page
+            </a>
+
+            <br>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ea in a exercitationem corrupti nesciunt
+                fugiat autem nemo cum, impedit quas eveniet eligendi alias temporibus excepturi perspiciatis, sapiente
+                at obcaecati!
+                <a href="http://www.google.com">Google</a>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, harum blanditiis. Facilis, voluptatum
+                saepe beatae accusamus magni voluptatem necessitatibus culpa aspernatur nobis minus dignissimos quod!
+                Amet excepturi ipsam vel nesciunt.
+            </p>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ea in a exercitationem corrupti nesciunt
+                fugiat autem nemo cum, impedit quas eveniet eligendi alias temporibus excepturi perspiciatis, sapiente
+                at obcaecati!
+                <a href="http://www.google.com">Google</a>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, harum blanditiis. Facilis, voluptatum
+                saepe beatae accusamus magni voluptatem necessitatibus culpa aspernatur nobis minus dignissimos quod!
+                Amet excepturi ipsam vel nesciunt.
+            </p>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ea in a exercitationem corrupti nesciunt
+                fugiat autem nemo cum, impedit quas eveniet eligendi alias temporibus excepturi perspiciatis, sapiente
+                at obcaecati!
+                <a href="http://www.google.com">Google</a>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, harum blanditiis. Facilis, voluptatum
+                saepe beatae accusamus magni voluptatem necessitatibus culpa aspernatur nobis minus dignissimos quod!
+                Amet excepturi ipsam vel nesciunt.
+            </p>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ea in a exercitationem corrupti nesciunt
+                fugiat autem nemo cum, impedit quas eveniet eligendi alias temporibus excepturi perspiciatis, sapiente
+                at obcaecati!
+                <a href="http://www.google.com">Google</a>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, harum blanditiis. Facilis, voluptatum
+                saepe beatae accusamus magni voluptatem necessitatibus culpa aspernatur nobis minus dignissimos quod!
+                Amet excepturi ipsam vel nesciunt.
+            </p>
+
+            <h2 id="second-section" class="ela">Second Section</h2>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ea in a exercitationem corrupti nesciunt
                 fugiat autem nemo cum, impedit quas eveniet eligendi alias temporibus excepturi perspiciatis, sapiente
@@ -81,6 +141,20 @@
         </footer>
 
     </div>
+
+    <script>
+        let button = document.getElementById('newPage');
+
+        button.addEventListener('click', function () {
+           alert('Hello World');
+        });
+
+
+
+
+
+
+    </script>
 
 </body>
 

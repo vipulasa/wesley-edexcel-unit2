@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" style="display: none;">
+        <input type="text" name="number_one" id="number_one">
+        <input type="text" name="number_two" id="number_two">
+        <select name="operator" id="operator">
+            <option value="add">Add</option>
+            <option value="subtract">Subtract</option>
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    
+    <script>
+
+        // let number_one = 3;
+
+        // let number_two = 2;
+
+        // let result = number_one * number_two;
+
+        // console.log(result);
+
+
+        function calculate(value_one, value_two, operator){
+            if(operator == '+'){
+                return value_one + value_two;
+            }
+            else if(operator == '-'){
+                return value_one - value_two;
+            }
+            else if(operator == '*'){
+                return value_one * value_two;
+            }
+            else if(operator == '/'){
+                return value_one / value_two;
+            }
+        }
+
+        console.log(calculate(2, 4, '+'));
+        
+
+    </script>
+</body>
+</html>
