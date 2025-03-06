@@ -15,11 +15,57 @@
         var cars = [
             "Saab", 
             "Volvo", 
-            "BMW"
+            "BMW",
+            "Toyota",
+            "Ford",
+            "Fiat",
+            "Audi",
+            "Mercedes",
+            "Volkswagen",
+            "Chevrolet",
+            "Jeep"
         ];
-        document.write(cars[0] + "<br>");
-        document.write(cars[1] + "<br>");
-        document.write(cars[2] + "<br>");
+
+        console.log(cars);
+
+        cars.pop();
+
+        cars.push('Tesla');
+
+        console.log(cars);
+
+        cars.forEach(function (car) {
+            document.write(car + "<br>");
+        });
+
+
+        var carDetails = [
+            [
+                "Saab",
+                "95",
+                "2000",
+                "Black"
+            ],
+            [
+                "Volvo",
+                "V70",
+                "2005",
+                "White"
+            ],
+            [
+                "BMW",
+                "M3",
+                "2010",
+                "Red"
+            ],
+        ];
+
+        console.log(carDetails);
+    
+
+        carDetails.forEach(function (car) {
+            document.write(car[0] + "<br>");
+        });
     </script>
 </body>
 
